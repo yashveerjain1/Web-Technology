@@ -1,0 +1,22 @@
+span::first-letter{
+    color: red;
+    font-style: italic;
+    font-size: xx-large;
+}
+/* div::first-letter{
+    color: red;
+    font-style: italic;
+    font-size: xx-large;
+} */
+
+
+p::first-line{
+    color: rgb(5, 255, 92);
+    font-style: italic;
+    font-size: xx-large;
+}
+
+p::selection{
+    background-color: red;
+    color: yellow;
+}

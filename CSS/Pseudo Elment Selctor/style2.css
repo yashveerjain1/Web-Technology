@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+div{
+    margin: 20px;
+    padding: 20px;
+}
+div::before{
+    content: "Jai";
+    color: brown;
+    font-size: large;
+}
+div{
+    color: white;
+}
+div::after{
+    content: "Ram";
+    color: yellow;
+    font-size: large;
+}

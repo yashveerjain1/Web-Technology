@@ -20,3 +20,26 @@ p::selection{
     background-color: red;
     color: yellow;
 }
+
+ul li::marker{
+    content: "/f3ed";
+    font-family: ;
+    font-weight: bold;
+}
+
+ol li:nth-child(even)::marker{
+    content:" 😍";
+
+}
+
+ol li:nth-child(odd)::marker{
+    content:" 😒";
+
+}
+
+ol>li:nth-child(2)::marker,
+ol>li:nth-child(5)::marker
+{  
+    content: "😂";
+
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annsimatio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: bisque;
+            border: 2px solid black;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        .box{
+            margin: 3px;
+            width: 350px;
+            height: 80px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: salmon;
+            animation-name: rightMovement;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:reverse ;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function:linear;            overflow:hidden;
+            box-shadow: 2px 2px 200px teal;
+
+          
+        }
+        .box p{
+            color: darkblue;
+
+        }
+        @keyframes rightMovement {
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top:0;
+                left: 1200px;
+
+            }
+            
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur commodi, ad explicabo quas harum excepturi fuga facilis enim repellat sapiente, nihil, porro exercitationem. Facilis rerum suscipit quis enim error?
+            </p>
+            
+        </div>
+
+    </div>
+</body>
+</html>

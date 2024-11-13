@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+    }           
+        .rectangle{
+            margin: 0;
+            padding: 0;
+            height: 60px;
+            width: 2000px;
+            border: 2px double black;
+            border-radius: 5px;
+            background-color: #ff9500b7;
+        }
+
+        .rectangle p{
+            animation: rightMovement 10s linear 1s infinite normal;
+            position: relative;
+        }
+        @keyframes rightMovement {
+            from{
+                top: 0px;
+                left: 0px;
+            }
+            to{
+                top: 0px;
+                left: 1200px;
+
+            }
+            
+        }
+     
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        
+    <div class="rectangle">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur iste totam consequatur sequi provident in facere possimus nemo eos itaque exercitationem ea qui, tempore maxime molestias eum magni deserunt culpa alias ipsum soluta quis fugiat! Alias officiis dolorem recusandae sint consectetur similique officia, sed quidem totam ipsum sunt qui quam?</p>
+    </div>
+    
+    </div>
+</body>
+</html>

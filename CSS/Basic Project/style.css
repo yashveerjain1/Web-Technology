@@ -1,0 +1,146 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    
+    width: 100vw;
+    overflow-x: none;
+    background: rgb(193,172,208);
+background: linear-gradient(90deg, rgba(193,172,208,0.5318919804249824) 0%, rgba(235,212,212,0.013684697511817223) 50%, rgba(172,150,119,1) 100%);
+}
+.Navcontainer{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,92,9,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100vw;
+    height: 60px;
+   
+
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar .logo p{
+    font-size: 2.8rem;
+     margin-top:2px;
+    margin-left: 2px;
+    padding-left: 20px;
+    color: white;
+}
+.Navbar .links a{
+   
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 20px;
+    padding: 15px;
+    color: white;
+   text-decoration-color:blanchedalmond ;
+
+}
+.Booklet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Booklet .Menu{
+    height: 1800px;
+    width: 70%;
+    border: 2px solid black;
+   
+    
+}
+
+.Booklet .Menu .receipe1 {
+    height: 600px;
+    width: 100%;
+    
+    
+}
+.Booklet .Menu .receipe1 .name1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.Booklet .Menu .receipe1 .name1  p{
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-display: initial;
+
+}
+.Booklet .Menu .receipe1 .name1 img{
+ height: 580px;
+ width: 400px;
+ border-radius: 5px;
+ margin: 10px;
+ border: 2px solid rgb(0, 0, 0);
+}
+.Booklet .Menu .receipe1 .name1 img:hover{
+    
+}
+
+.Booklet .Menu .receipe2 {
+    height: 600px;
+    width: 100%;
+   }
+.Booklet .Menu .receipe2 .item2{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }    
+    .Booklet .Menu .receipe2 .item2 img{
+        height: 580px;
+ width: 400px;
+ border-radius: 5px;
+ margin: 10px;
+ border: 2px solid black;
+    }
+.Booklet .Menu .receipe2 .item2 p{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration-color: blue;
+}
+.Booklet .Menu .receipe2 .item2 p::selection{
+    background-color: yellow;
+    color: red;
+}
+.Booklet .Menu .receipe3 {
+    height: 600px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.Booklet .Menu .receipe3 fieldset{
+    width: 500px;
+    height: 400px;
+    background-image: url("https://th.bing.com/th/id/OIP._t5PwJneEsl0m0qJW7PoUgHaEK?w=318&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7");
+    background-size: cover;
+    border-radius: 20px  ;
+    color: white;
+   
+}
+.footer{
+    background: linear-gradient(60deg, rgb(193, 255, 7) 0%, rgba(121,92,9,1) 35%, rgba(0,212,255,1) 100%);
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: white;
+    font-size: 2rem;
+}

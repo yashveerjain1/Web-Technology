@@ -39,6 +39,8 @@ background: linear-gradient(90deg, rgb(90, 89, 121) 0%, rgb(104, 104, 208) 35%, 
 
 }
 .box1{
+    display: flex,flex;
+    
     margin: 10px;
     padding: 0.5rem;
     height: 10%;
@@ -48,6 +50,7 @@ background: linear-gradient(90deg, rgb(90, 89, 121) 0%, rgb(104, 104, 208) 35%, 
     font-size: 1.5rem;
     text-align: center;
     background-color: rgba(255, 127, 80, 0.569);
+    justify-content: center;
     
 }
 .box1 .b{
@@ -57,13 +60,13 @@ background: linear-gradient(90deg, rgb(90, 89, 121) 0%, rgb(104, 104, 208) 35%, 
     
 
     overflow:hidden ;
-    margin-top: 10px;
-    padding: 10px;
+    /* margin-top: 10px;
+    padding: 10px; */
 
 }
 .box1 .b img{
-    height: 25%;
-    width: 10%;
+    height: 75%;
+    width: 12%;
 }
 .box1 .b h6{
     font-size: 16px;

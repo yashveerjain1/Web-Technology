@@ -1,0 +1,39 @@
+,::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scrollbar-width: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card{
+    height: 300px;
+    width: 200px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    /* overflow: scroll; */
+    white-space: nowrap;
+}
+.card h2{
+    text-align: center;
+    font-size: larger;
+}
+.card p{
+    font-size: 22px;
+    text-align: justify;
+}

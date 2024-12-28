@@ -12,17 +12,18 @@
 
 
 let integerNumber = 3;
-console.log(typeof(integerNumber));    // number
+// console.log(typeof(integerNumber));    // number
 
 let floatNumber = "3.14";
 console.log(typeof(floatNumber));       //number
 
-let output = integerNumber + floatNumber;
+// let output = integerNumber + floatNumber;
 // Result will be a floating-point number
 
-console.log(typeof(output));    // 6.14
+// console.log(typeof(output));    // 6.14
 
 
 console.log(typeof(parseFloat(floatNumber)));
+console.log((parseFloat(floatNumber)));
 
 

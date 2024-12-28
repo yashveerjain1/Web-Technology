@@ -2,10 +2,12 @@
 // addition
 // let a=2;
 // let b=2;
+
 // console.log(a+b);
 // ?substraction
 
 // console.log(a-b);
+
 
 // ?multiplication
 // console.log(a*b);

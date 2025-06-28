@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--! example of function call()method  -->
+    <!-- <script>
+        function emp(id,name){
+            this.id=id;
+            this.name=name;
+
+        }
+        function permanentEmp(id,name){
+            emp.call(this,id,name);
+        }
+        function TempEmp(id,name){
+            emp.call(this,id,name);
+        }
+
+        let pEmp=new permanentEmp(1,"Prateeek");
+        let temp=new TempEmp(2,"Prashant");
+
+        document.writeln(pEmp.id +" "+ pEmp.name);
+        document.writeln(temp.id +" "+temp.name);
+
+
+    </script> -->
+
+    <!-- ! function apply() method ----  1    -->
+     <!-- <script>
+        let arr=[8,6,7,10];
+        let max=Math.max.apply(null,arr);//yha pr null add krna compulsory, apply needs a this value, but Math.max doesn't use this, so we pass null as a placeholder.
+        document.write(max);
+     </script> -->
+    
+     <!-- ! funtion bind() method -->
+      <script>
+        let website ={
+            name:"javascript",
+            getName:function(){
+                return this.name;
+            }
+        }
+        let unboundGetName=website.getName;
+        let boundGetName=unboundGetName.bind(website);
+                // document.write(website.getName());
+
+            document.write(boundGetName())
+      </script>
+
+</body>
+</html>

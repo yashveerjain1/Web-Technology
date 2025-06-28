@@ -60,7 +60,7 @@
  
 
 // !Bitwise operators
-// ?bitwise And(&)
+// ?bitwise And(&)  
 // console.log(5&7);
 // 5=>0101
 // 7=>0111
@@ -118,4 +118,37 @@
 // let b="Your Study Zone"
 // console.log(typeof(a));
 // console.log(typeof(b));
+
+
+
+// !special operators
+
+// let a =3
+// let b=4
+// // conditional operators
+// let c=(a==b)? "equal":"not equal"
+// console.log(c);
+// // comma operator
+let d=(1,2,3);
+
+
+
+
+// person={
+//     firstName:"aysh",
+// }
+// // in operator
+// let x='age' in person ? true:false;
+// console.log(x);
+
+
+// instance of   operator
+person={
+        firstName:"aysh",
+    }
+    
+    console.log(person instanceof  Array);
+    
+
+
 
